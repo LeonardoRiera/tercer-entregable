@@ -1,0 +1,110 @@
+/* article */
+
+article {
+    background-image: url(../img/fondo-article.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    padding-bottom: 15vmax;
+    
+    
+
+    .article-titulos {
+
+        padding: 3vmax 1vmax;
+
+        h2 {
+
+            @include titulo-h2 ( 3vmax, $color-seis);
+        }
+        
+        p {
+
+            @include subtitulo ($color-uno)
+        }
+    }
+
+
+}
+
+
+/* .bloque-noticia {
+    border: solid 1px $color-dos;
+} */
+
+
+.noticia {
+
+    display: flex;
+    flex-flow: column wrap;
+    padding-right: 15%;
+    justify-content: center;
+    align-items: start;
+
+    h3 {
+        @include titulos-h3 (2vmax);
+
+    }
+
+    p {
+        @include parrafo (1.1vmax);
+    }
+
+    a {
+        @include botones;
+
+    }
+
+    a:hover {
+        @include botones-hover
+    }
+
+
+
+}
+
+
+.noticia-dos {
+    display: flex;
+    flex-flow: column wrap;
+    padding-left: 15%;
+    text-align: end;
+    justify-content: center;
+    align-items: end;
+
+    h3 {
+        @include titulos-h3 (2vmax);
+
+    }
+
+    p {
+
+        @include parrafo (1.1vmax);
+
+    }
+
+    a {
+        @include botones;
+    }
+
+    a:hover {
+        @include botones-hover
+    }
+
+
+}
+
+.cont-foto-article {
+    display: flex;
+    justify-content: end;
+}
+
+.cont-foto-article2 {
+    display: flex;
+    justify-content: start;
+}
+
+.foto-noticia {
+    width: 18vmax;
+    border-radius: 0 20% 0 20%;
+}
+

@@ -1,0 +1,80 @@
+footer {
+    background-image: url(../img/fondo-footer.jpg);
+    background-size: cover;
+    background-position: start center;
+    height: 45vmax;
+    display: flex;
+    flex-flow: column;
+    justify-content: end;
+    align-items: center;
+    gap: 5vmax;
+}
+
+.contenedor-contactos {
+
+    .mail {
+
+        a {
+            color: $color-uno;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: $color-dos;
+        }
+    }
+
+    .redes {
+        padding-top: 2vmax;
+        font-size: 2.5vmax;
+        
+
+
+        a {
+            color: $color-dos;
+            padding-right: 1.3vmax;
+        }
+
+        a:hover {
+            color: $color-uno;
+        }
+    }
+}
+
+.contenedor-links {
+
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+
+    .links {
+
+        display: flex;
+        flex-flow: column wrap;
+        align-items: start;
+        align-content: center;
+        
+        a {
+            text-decoration: none;
+            color: $color-uno;
+            padding-top: 0.5vmax;
+        }
+        a:hover {
+            color: $color-dos;
+        }
+    }
+}
+
+.contenedor-newsletter {
+
+    a {
+
+        text-decoration: none;
+        @include botones;
+    }
+
+    a:hover {
+
+        @include botones-hover;
+    }
+}

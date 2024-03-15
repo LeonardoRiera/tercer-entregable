@@ -1,0 +1,66 @@
+
+
+
+header {
+    background-image: url(../img/header-foto.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 36vmax;
+    display: flex;
+    justify-content: start;
+}
+
+.row-header {
+
+    
+
+    .header-texto {
+
+        display: flex;
+        flex-flow: column wrap;
+        align-items: start;
+        justify-content: center;
+        padding-left: 1.5vmax;
+
+
+        h1 {
+
+          font-family: $font-titulo;
+          font-size: 5.5vmax; 
+          margin-bottom: 4vmax; 
+          color: $color-seis;
+            
+        }
+
+        h2 {
+            font-family: $font-parrafo;
+            margin-bottom: 5vmax;
+            font-size: 2vmax;
+            color: $color-seis;
+            
+        
+        }
+
+        a {
+            font-family: $font-tres;
+            text-decoration: none;
+            color: $color-cinco;
+            background-color: $color-uno;
+            padding: 0.5vmax 1.5vmax;
+            border-radius: 0.6vmax;
+        }
+
+        a:hover {
+            color: $color-seis;
+            background-color: $color-dos;
+        }
+    }
+
+    
+}
+
+
+
+
+
+

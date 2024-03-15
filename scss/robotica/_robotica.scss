@@ -1,0 +1,98 @@
+.main-robotica {
+
+    background-image: url(/img/foto-robotica.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 80vmax;
+    
+
+    .robotica-row {
+
+        
+
+
+
+
+        .robotica-col {
+
+            background: transparent;
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(69, 69, 69, 0.416);
+            border-radius: 8px;
+            margin: 5vmax;
+
+            h1 {
+                @include titulo-h1(6vmax);
+            }
+            
+        } 
+
+    }
+}
+
+
+.row-roboto {
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-top: 5vmax;
+
+    
+    .robUno {
+
+        width: 18vmax;
+        height: 18vmax;
+        background-image: url(/img/robotoTres.jpg);
+        background-size: cover;
+        background-position: center center;
+        border-radius: 3vmax;
+        box-shadow: 3px 3px 1px rgba(17, 17, 17, 0.774);
+
+    }
+
+    .robUno:hover {
+
+       
+        
+            
+    }
+
+
+
+    .robDos {
+
+        width: 18vmax;
+        height: 18vmax;
+        background-image: url(/img/robotoDos.jpg);
+        background-size: cover;
+        background-position: center center;
+        border-radius: 3vmax;
+        box-shadow: 3px 3px 1px rgba(17, 17, 17, 0.774);
+
+    }
+
+    .robTres {
+
+        width: 18vmax;
+        height: 18vmax;
+        background-image: url(/img/robotoUno.jpg);
+        background-size: cover;
+        background-position: center center;
+        border-radius: 3vmax;
+        box-shadow: 3px 3px 1px rgba(17, 17, 17, 0.774);
+
+    }
+
+    .robCuatro {
+
+        width: 18vmax;
+        height: 18vmax;
+        background-image: url(/img/robotoCuatro.jpg);
+        background-size: cover;
+        background-position: center center;
+        border-radius: 3vmax;
+        box-shadow: 3px 3px 1px rgba(17, 17, 17, 0.774);
+
+    }
+}

@@ -1,0 +1,91 @@
+
+/* paleta de colores del proyecto */
+
+$color-uno: #f0971c;
+$color-dos: #4d1f59;
+$color-tres: #9e0b41;
+$color-cuatro: #4a073c; 
+$color-cinco: #000000;
+$color-seis: #ffffff;
+
+$font-titulo: "Dela Gothic One", sans-serif;
+$font-parrafo: "Ubuntu", sans-serif; 
+$font-tres: "Nanum Gothic Coding", monospace;
+
+
+
+@mixin titulo-h1 ($size-h1) {
+
+    font-family: $font-titulo;
+    font-size: $size-h1; 
+    color: $color-seis;
+}
+
+/* mixins  h3 parrafo */
+
+
+@mixin titulos-h3 ( $size-h3 ) {
+
+    font-family: $font-parrafo;
+    color: $color-uno;
+    font-size: $size-h3;
+}
+
+@mixin parrafo ( $size-parrafo ) {
+
+    font-family: $font-parrafo;
+    color: $color-seis;
+    font-size: $size-parrafo;
+
+}
+
+
+
+
+@mixin titulo-h2 ( $size-h2, $color-h2 ) {
+
+    font-family: $font-titulo;
+    font-size: $size-h2;
+    color: $color-h2;
+    text-shadow: 1px 1px 1px $color-cinco;
+}
+
+@mixin subtitulo ($color-subtitulo) {
+    
+    font-family: $font-parrafo;
+    color: $color-subtitulo;
+    text-shadow: 1px 1px 1px $color-cinco;
+    font-size: 1.3vmax;
+}
+
+
+
+
+
+
+
+
+
+
+/* mixins botones */
+
+@mixin botones {
+    
+    font-family: $font-parrafo;
+    text-decoration: none;
+    color: $color-cinco;
+    background-color: $color-uno;
+    padding: 0.5vmax 2.5vmax;
+    border-radius:0 0.6vmax 0 0.6vmax;
+    
+    
+}
+
+@mixin botones-hover {
+
+    
+    color: $color-seis;
+    background-color: $color-dos;
+    
+
+}

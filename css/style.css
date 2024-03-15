@@ -1,0 +1,591 @@
+/* paleta de colores del proyecto */
+/* mixins  h3 parrafo */
+/* mixins botones */
+/* modificaciones del navegados de bootstrap */
+.titulo {
+  font-family: "Dela Gothic One", sans-serif;
+}
+
+.nav-link {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.dropdown-item {
+  font-family: "Ubuntu", sans-serif;
+}
+
+header {
+  background-image: url(../img/header-foto.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 36vmax;
+  display: flex;
+  justify-content: start;
+}
+
+.row-header .header-texto {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: start;
+  justify-content: center;
+  padding-left: 1.5vmax;
+}
+.row-header .header-texto h1 {
+  font-family: "Dela Gothic One", sans-serif;
+  font-size: 5.5vmax;
+  margin-bottom: 4vmax;
+  color: #ffffff;
+}
+.row-header .header-texto h2 {
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 5vmax;
+  font-size: 2vmax;
+  color: #ffffff;
+}
+.row-header .header-texto a {
+  font-family: "Nanum Gothic Coding", monospace;
+  text-decoration: none;
+  color: #000000;
+  background-color: #f0971c;
+  padding: 0.5vmax 1.5vmax;
+  border-radius: 0.6vmax;
+}
+.row-header .header-texto a:hover {
+  color: #ffffff;
+  background-color: #4d1f59;
+}
+
+.container-franja {
+  background: linear-gradient(183deg, rgb(21, 0, 46) 1%, rgb(0, 0, 0) 74%);
+  height: 7vmax;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-franja {
+  color: #ffffff;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-size: 2.5vmax;
+  font-weight: bold;
+  text-shadow: rgba(255, 255, 255, 0.4941176471) 0 0 12px, rgba(169, 16, 121, 0.568627451) 0 0 25px, rgba(169, 16, 121, 0.6549019608) 0 0 35px, rgba(169, 16, 121, 0.6588235294) 0 0 45px;
+}
+
+/* article */
+article {
+  background-image: url(../img/fondo-article.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  padding-bottom: 15vmax;
+}
+article .article-titulos {
+  padding: 3vmax 1vmax;
+}
+article .article-titulos h2 {
+  font-family: "Dela Gothic One", sans-serif;
+  font-size: 3vmax;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #000000;
+}
+article .article-titulos p {
+  font-family: "Ubuntu", sans-serif;
+  color: #f0971c;
+  text-shadow: 1px 1px 1px #000000;
+  font-size: 1.3vmax;
+}
+
+/* .bloque-noticia {
+    border: solid 1px $color-dos;
+} */
+.noticia {
+  display: flex;
+  flex-flow: column wrap;
+  padding-right: 15%;
+  justify-content: center;
+  align-items: start;
+}
+.noticia h3 {
+  font-family: "Ubuntu", sans-serif;
+  color: #f0971c;
+  font-size: 2vmax;
+}
+.noticia p {
+  font-family: "Ubuntu", sans-serif;
+  color: #ffffff;
+  font-size: 1.1vmax;
+}
+.noticia a {
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  color: #000000;
+  background-color: #f0971c;
+  padding: 0.5vmax 2.5vmax;
+  border-radius: 0 0.6vmax 0 0.6vmax;
+}
+.noticia a:hover {
+  color: #ffffff;
+  background-color: #4d1f59;
+}
+
+.noticia-dos {
+  display: flex;
+  flex-flow: column wrap;
+  padding-left: 15%;
+  text-align: end;
+  justify-content: center;
+  align-items: end;
+}
+.noticia-dos h3 {
+  font-family: "Ubuntu", sans-serif;
+  color: #f0971c;
+  font-size: 2vmax;
+}
+.noticia-dos p {
+  font-family: "Ubuntu", sans-serif;
+  color: #ffffff;
+  font-size: 1.1vmax;
+}
+.noticia-dos a {
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  color: #000000;
+  background-color: #f0971c;
+  padding: 0.5vmax 2.5vmax;
+  border-radius: 0 0.6vmax 0 0.6vmax;
+}
+.noticia-dos a:hover {
+  color: #ffffff;
+  background-color: #4d1f59;
+}
+
+.cont-foto-article {
+  display: flex;
+  justify-content: end;
+}
+
+.cont-foto-article2 {
+  display: flex;
+  justify-content: start;
+}
+
+.foto-noticia {
+  width: 18vmax;
+  border-radius: 0 20% 0 20%;
+}
+
+.new-tech {
+  background: linear-gradient(183deg, rgb(21, 0, 46) 1%, rgb(0, 0, 0) 74%);
+  padding-bottom: 5vmax;
+}
+.new-tech .new-tech-title h2 {
+  padding: 2vmax;
+  background-color: #f0971c;
+  font-family: "Dela Gothic One", sans-serif;
+  font-size: 2.8vmax;
+  color: #000000;
+  text-shadow: 1px 1px 1px #000000;
+}
+.new-tech .new-tech-title p {
+  font-family: "Ubuntu", sans-serif;
+  color: #ffffff;
+  font-size: 1.2vmax;
+  color: #f0971c;
+  padding: 3vmax 10vmax;
+  background-color: rgba(255, 255, 255, 0.038);
+}
+
+.contenedor-cards {
+  margin: 2vmax 6vmax;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.card {
+  border: none;
+  width: 18vmax;
+}
+
+.separador {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.separador a {
+  text-align: center;
+  padding: 1vmax;
+  background-color: #f0971c;
+  text-decoration: none;
+}
+.separador a p {
+  color: #4a073c;
+  font-family: "Dela Gothic One", sans-serif;
+  font-size: 1.5vmax;
+}
+.separador a p span {
+  color: #4d1f59;
+}
+.separador a p span:hover {
+  color: red;
+}
+
+footer {
+  background-image: url(../img/fondo-footer.jpg);
+  background-size: cover;
+  background-position: start center;
+  height: 45vmax;
+  display: flex;
+  flex-flow: column;
+  justify-content: end;
+  align-items: center;
+  gap: 5vmax;
+}
+
+.contenedor-contactos .mail a {
+  color: #f0971c;
+  text-decoration: none;
+}
+.contenedor-contactos .mail a:hover {
+  color: #4d1f59;
+}
+.contenedor-contactos .redes {
+  padding-top: 2vmax;
+  font-size: 2.5vmax;
+}
+.contenedor-contactos .redes a {
+  color: #4d1f59;
+  padding-right: 1.3vmax;
+}
+.contenedor-contactos .redes a:hover {
+  color: #f0971c;
+}
+
+.contenedor-links {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+}
+.contenedor-links .links {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: start;
+  align-content: center;
+}
+.contenedor-links .links a {
+  text-decoration: none;
+  color: #f0971c;
+  padding-top: 0.5vmax;
+}
+.contenedor-links .links a:hover {
+  color: #4d1f59;
+}
+
+.contenedor-newsletter a {
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  color: #000000;
+  background-color: #f0971c;
+  padding: 0.5vmax 2.5vmax;
+  border-radius: 0 0.6vmax 0 0.6vmax;
+}
+.contenedor-newsletter a:hover {
+  color: #ffffff;
+  background-color: #4d1f59;
+}
+
+.main-robotica {
+  background-image: url(/img/foto-robotica.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 80vmax;
+}
+.main-robotica .robotica-row .robotica-col {
+  background: transparent;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(69, 69, 69, 0.416);
+  border-radius: 8px;
+  margin: 5vmax;
+}
+.main-robotica .robotica-row .robotica-col h1 {
+  font-family: "Dela Gothic One", sans-serif;
+  font-size: 6vmax;
+  color: #ffffff;
+}
+
+.row-roboto {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-top: 5vmax;
+}
+.row-roboto .robUno {
+  width: 18vmax;
+  height: 18vmax;
+  background-image: url(/img/robotoTres.jpg);
+  background-size: cover;
+  background-position: center center;
+  border-radius: 3vmax;
+  box-shadow: 3px 3px 1px rgba(17, 17, 17, 0.774);
+}
+.row-roboto .robDos {
+  width: 18vmax;
+  height: 18vmax;
+  background-image: url(/img/robotoDos.jpg);
+  background-size: cover;
+  background-position: center center;
+  border-radius: 3vmax;
+  box-shadow: 3px 3px 1px rgba(17, 17, 17, 0.774);
+}
+.row-roboto .robTres {
+  width: 18vmax;
+  height: 18vmax;
+  background-image: url(/img/robotoUno.jpg);
+  background-size: cover;
+  background-position: center center;
+  border-radius: 3vmax;
+  box-shadow: 3px 3px 1px rgba(17, 17, 17, 0.774);
+}
+.row-roboto .robCuatro {
+  width: 18vmax;
+  height: 18vmax;
+  background-image: url(/img/robotoCuatro.jpg);
+  background-size: cover;
+  background-position: center center;
+  border-radius: 3vmax;
+  box-shadow: 3px 3px 1px rgba(17, 17, 17, 0.774);
+}
+
+/* queries */
+/* estructura media queries con break-point de bootstrap */
+/* xxl devices (large laptops and desktops, 1200px and up) */
+/* xl devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  /* new-tech */
+  .contenedor-cards {
+    margin: 1vmax 2vmax;
+  }
+  .card-body .card-title {
+    font-size: 1.5vmax;
+  }
+  .card-body p {
+    font-size: 1.2vmax;
+  }
+  .card-body a {
+    font-size: 1.2vmax;
+  }
+}
+/* lg devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  /* new-tech */
+  .card {
+    width: 28vmax;
+    margin: 4vmax auto;
+  }
+  /* footer */
+  .contenedor-contactos {
+    padding-left: 7vmax;
+  }
+  .contenedor-contactos h3 {
+    font-size: 2.5vmax;
+  }
+  .contenedor-contactos .direccion i {
+    font-size: 1.5vmax;
+  }
+  .contenedor-contactos .direccion p {
+    font-size: 1.3vmax;
+  }
+  .contenedor-contactos .telefono i {
+    font-size: 1.5vmax;
+  }
+  .contenedor-contactos .telefono p {
+    font-size: 1.3vmax;
+  }
+  .contenedor-contactos .mail i {
+    font-size: 1.5vmax;
+  }
+  .contenedor-contactos .mail a {
+    font-size: 1.3vmax;
+  }
+  .contenedor-contactos .redes a {
+    font-size: 2.5vmax;
+  }
+  .contenedor-links h3 {
+    font-size: 2.5vmax;
+  }
+  .contenedor-links .links a {
+    font-size: 1.5vmax;
+  }
+  .contenedor-newsletter h3 {
+    font-size: 2.5vmax;
+  }
+  .contenedor-newsletter p {
+    font-size: 1.3vmax;
+  }
+  .contenedor-newsletter a {
+    font-size: 1.3vmax;
+  }
+}
+/* md devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  /* header */
+  .row-header {
+    padding-left: 0.5vmax !important;
+  }
+  .row-header .header-texto h1 {
+    font-size: 4.5vmax;
+  }
+  .row-header .header-texto h2 {
+    font-size: 1.4vmax;
+  }
+  .row-header .header-texto a {
+    font-size: 1.4vmax;
+  }
+  /* article */
+  .noticia a {
+    font-size: 1.8vmax;
+  }
+  .noticia-dos a {
+    font-size: 1.8vmax;
+  }
+  /* new-tech */
+  .card {
+    width: 28vmax;
+    margin: 4vmax auto;
+  }
+  /* separador */
+  .separador {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .separador a p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.3vmax;
+  }
+}
+/* sm devices (portrait tablets and large) */
+@media only screen and (max-width: 576px) {
+  /* nav */
+  .titulo {
+    font-size: 2.5vmax;
+    padding-top: 0.6vmax;
+  }
+  /* article */
+  .row-foto-article .cont-foto-article {
+    justify-content: center;
+    padding-bottom: 3vmax;
+  }
+  .row-foto-article .cont-foto-article2 {
+    justify-content: center;
+    padding-bottom: 3vmax;
+  }
+  .row-foto-article .noticia {
+    padding: 0 10%;
+    align-items: center;
+    text-align: center;
+  }
+  .row-foto-article .noticia a {
+    font-size: 1.5vmax;
+  }
+  .row-foto-article .noticia-dos {
+    padding: 0 10%;
+    align-items: center;
+    text-align: center;
+  }
+  .row-foto-article .noticia-dos a {
+    font-size: 1.5vmax;
+  }
+  .rotacion {
+    flex-direction: column-reverse;
+  }
+  /* footer */
+  .footer-row {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 10vmax;
+    justify-content: center;
+    gap: 8vmax;
+  }
+  .contenedor-contactos h3 {
+    font-size: 2.1vmax;
+  }
+  .contenedor-contactos .direccion i {
+    display: none;
+  }
+  .contenedor-contactos .direccion p {
+    font-size: 1vmax;
+  }
+  .contenedor-contactos .telefono i {
+    display: none;
+  }
+  .contenedor-contactos .telefono p {
+    font-size: 1vmax;
+  }
+  .contenedor-contactos .mail i {
+    display: none;
+  }
+  .contenedor-contactos .mail a {
+    font-size: 1vmax;
+  }
+  .contenedor-contactos .redes {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .contenedor-contactos .redes a {
+    font-size: 1.8vmax;
+  }
+  .contenedor-links {
+    display: none;
+  }
+  .contenedor-newsletter h3 {
+    font-size: 2.1vmax;
+  }
+  .contenedor-newsletter p {
+    font-size: 1.1vmax;
+  }
+  .contenedor-newsletter a {
+    font-size: 1.1vmax;
+  }
+  .texto-derechos p {
+    font-size: 1.1vmax;
+  }
+  /* ***************************************** */
+  /* robotica */
+  /* ***************************************** */
+  .main-robotica {
+    background-position: right 13% center;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* header */
+  .row-header .header-texto h1 {
+    font-size: 4vmax;
+  }
+  .row-header .header-texto h2 {
+    font-size: 1vmax;
+  }
+  /* franja animada */
+  .texto-franja {
+    font-size: 1.8vmax;
+  }
+  /* footer */
+  .contenedor-contactos {
+    padding: 0;
+    margin: 0;
+  }
+  .contenedor-newsletter a {
+    font-size: 0.8vmax;
+  }
+  /* ***************************************** */
+  /* robotica */
+  /* ***************************************** */
+  .main-robotica {
+    background-position: right 23% center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

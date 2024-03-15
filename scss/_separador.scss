@@ -1,0 +1,35 @@
+
+
+
+.separador {
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        text-align: center;
+        padding: 1vmax;
+        background-color: $color-uno;
+        text-decoration: none;
+
+        p {
+            
+            color: $color-cuatro;
+            font-family: $font-titulo;
+            font-size: 1.5vmax;
+
+            span {
+
+                color: $color-dos;
+
+                &:hover {
+
+                    color: red;
+                }
+            }
+
+        }
+    }
+}

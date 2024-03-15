@@ -1,0 +1,501 @@
+/* estructura media queries con break-point de bootstrap */
+
+
+
+
+
+
+
+/* xxl devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (max-width: 1400px) {
+
+    
+    
+}
+
+
+/* xl devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (max-width: 1200px) {
+    
+    
+    
+    /* new-tech */
+
+    .contenedor-cards {
+        margin: 1vmax 2vmax;
+         
+        
+    }
+
+
+
+    .card-body {
+
+        .card-title {
+
+            font-size: 1.5vmax;
+        }
+
+        p {
+            font-size: 1.2vmax;
+        }
+
+        a {
+            font-size: 1.2vmax; 
+        }
+
+
+    }
+     
+
+
+
+    
+}
+
+
+  
+/* lg devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+    /* new-tech */
+
+    .card {
+
+        width: 28vmax;
+        margin: 4vmax auto;
+    }
+
+   
+    
+
+
+
+
+
+    /* footer */
+
+    .contenedor-contactos {
+
+        padding-left: 7vmax;
+
+        h3 {
+
+            font-size: 2.5vmax;
+        }
+
+        .direccion {
+
+
+            i {
+                font-size: 1.5vmax;
+            }
+
+            p {
+                font-size: 1.3vmax; 
+            }
+        }
+
+        .telefono {
+
+           i {font-size: 1.5vmax;} 
+
+           p {
+            font-size: 1.3vmax; } 
+       
+        }
+
+       
+
+        .mail {
+
+            i {font-size: 1.5vmax;} 
+
+            a {
+                font-size: 1.3vmax;
+
+            }
+
+        }
+
+
+        .redes {
+
+            a {
+                font-size: 2.5vmax; 
+            }
+        }
+    }
+
+    .contenedor-links {
+
+        h3 {
+
+            font-size: 2.5vmax;
+        }
+
+        .links {
+
+            a {
+                font-size: 1.5vmax; 
+            }
+        }
+    }
+
+    .contenedor-newsletter {
+        h3 {
+            font-size: 2.5vmax;
+        }
+
+        p {
+            font-size: 1.3vmax; 
+        }
+
+
+        a {
+            font-size: 1.3vmax;  
+        }
+    }
+
+
+    
+}
+
+
+  
+/* md devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+    /* header */
+
+    .row-header {
+
+        padding-left: 0.5vmax !important;
+
+        .header-texto {
+            
+            
+    
+            h1 {
+                font-size: 4.5vmax;
+            }
+            h2 {
+                font-size: 1.4vmax;
+            }
+            a {
+                font-size: 1.4vmax;
+            }
+    
+        }
+    }
+
+
+
+    /* article */
+
+    .noticia {
+
+        a {
+            font-size: 1.8vmax;
+        }
+    }
+
+    .noticia-dos {
+
+        a {
+            font-size: 1.8vmax;
+        }
+    }
+
+    /* new-tech */
+
+    .card {
+
+        width: 28vmax;
+        margin: 4vmax auto;
+    }
+
+    /* separador */
+
+    .separador {
+
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        
+
+        a {
+            
+           
+            
+    
+            p {
+                
+                margin: 0;
+                padding: 0;
+                font-size: 1.3vmax;
+    
+            }
+        }
+    }
+
+    
+}
+
+
+  
+/* sm devices (portrait tablets and large) */
+@media only screen and (max-width: 576px) {
+  
+
+
+
+    /* nav */
+
+    .titulo {
+        font-size: 2.5vmax;
+        padding-top: 0.6vmax;
+    }
+
+        
+
+
+    /* article */
+
+    .row-foto-article {
+
+        
+
+        
+
+        .cont-foto-article {
+            
+           
+          justify-content: center;
+          padding-bottom: 3vmax;
+        }
+
+
+        .cont-foto-article2 {
+            
+           
+            justify-content: center;
+            padding-bottom: 3vmax;
+          }
+        .noticia {
+            
+           padding: 0 10%;
+           align-items: center;
+           text-align: center;
+          
+           a {
+            font-size: 1.5vmax;
+            }
+        }
+
+
+
+
+        .noticia-dos {
+
+            
+            padding: 0 10%;
+            align-items: center;
+            text-align: center;
+
+            a {
+                font-size: 1.5vmax;
+               
+            }
+        }    
+        
+    }
+
+    .rotacion {
+
+        flex-direction: column-reverse;
+    }
+
+
+    /* footer */
+
+    .footer-row {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        margin-top: 10vmax;
+        justify-content: center;
+        gap: 8vmax;
+        
+    }
+
+    .contenedor-contactos {
+
+        
+       
+        
+       
+
+        h3 {
+
+            font-size: 2.1vmax;
+        }
+
+        .direccion {
+           
+            i {
+                display: none;
+                
+                
+            }
+
+            p {
+                font-size: 1vmax; 
+            }
+        }
+
+        .telefono {
+
+           i {
+            display: none;
+             } 
+           
+
+           p {
+            font-size: 1vmax;
+            } 
+       
+        }
+
+       
+
+        .mail {
+
+
+            i {display: none;
+                } 
+
+            a {
+                font-size: 1vmax;
+
+            }
+
+        }
+
+
+        .redes {
+            display: flex;
+            flex-flow: row nowrap;
+
+            a {
+                font-size: 1.8vmax; 
+                
+            }
+        }
+    }
+
+    .contenedor-links {
+
+        display: none;
+    }
+
+    .contenedor-newsletter {
+        h3 {
+            font-size: 2.1vmax;
+        }
+
+        p {
+            font-size: 1.1vmax; 
+        }
+
+
+        a {
+            font-size: 1.1vmax;  
+        }
+    }
+
+    .texto-derechos {
+        
+        p {
+            font-size: 1.1vmax;
+        }
+    }
+
+
+
+    /* ***************************************** */
+                   /* robotica */
+                  
+    /* ***************************************** */  
+    
+    .main-robotica {
+
+        background-position: right 13% center;
+        
+    }
+   
+}
+
+
+  
+
+
+@media only screen and (max-width: 400px) {
+
+    /* header */
+
+    .row-header {
+
+
+        .header-texto {
+            
+            
+    
+            h1 {
+                font-size: 4vmax;
+            }
+            h2 {
+                font-size: 1vmax;
+            }
+            
+    
+        }
+    }
+
+    /* franja animada */
+
+    .texto-franja {
+        font-size: 1.8vmax;
+    }
+
+
+    /* footer */
+    .contenedor-contactos {
+        padding: 0;
+        margin: 0;
+    }
+
+    .contenedor-newsletter {
+        
+
+        a {
+            font-size: 0.8vmax;  
+        }
+    }
+
+
+    
+    /* ***************************************** */
+                   /* robotica */
+                  
+    /* ***************************************** */  
+    
+    .main-robotica {
+
+        background-position: right 23% center;
+        
+    }
+}
+  

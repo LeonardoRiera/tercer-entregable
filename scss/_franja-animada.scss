@@ -1,0 +1,25 @@
+
+.container-franja {
+    background: linear-gradient(183deg, rgba(21,0,46,1) 1%, rgba(0,0,0,1) 74%);
+    height: 7vmax;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.texto-franja {
+
+    color: $color-seis;
+    font-family: $font-tres;
+    font-size: 2.5vmax;
+    font-weight: bold;
+
+    text-shadow: 
+        #ffffff7e 0 0 12px,
+        #a9107991 0 0 25px,
+        #a91079a7 0 0 35px,
+        #a91079a8 0 0 45px; 
+
+}

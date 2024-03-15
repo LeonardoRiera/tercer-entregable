@@ -1,0 +1,53 @@
+
+.new-tech {
+     
+    background: linear-gradient(183deg, rgba(21,0,46,1) 1%, rgba(0,0,0,1) 74%);
+    padding-bottom: 5vmax;
+
+
+    .new-tech-title {
+        
+
+
+        h2 {
+            padding: 2vmax;
+            background-color: $color-uno;
+            @include titulo-h2 ( 2.8vmax, $color-cinco)
+            
+
+        }
+
+        p {
+            @include parrafo (1.2vmax);
+            color: $color-uno;
+            
+            padding: 3vmax 10vmax;
+            background-color: rgba(255, 255, 255, 0.038);
+
+        }
+    }
+
+
+
+
+
+
+}
+
+.contenedor-cards {
+   margin: 2vmax 6vmax;
+   display: flex; 
+   flex-flow: row wrap;
+   
+}
+
+
+
+
+
+.card {
+    border: none;
+    width: 18vmax;
+    
+}
+
