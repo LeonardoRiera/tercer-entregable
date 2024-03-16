@@ -1,6 +1,7 @@
 /* paleta de colores del proyecto */
 /* mixins  h3 parrafo */
 /* mixins botones */
+/* sombra neon */
 /* modificaciones del navegados de bootstrap */
 .titulo {
   font-family: "Dela Gothic One", sans-serif;
@@ -306,11 +307,11 @@ footer {
   backdrop-filter: blur(8px);
   border: 1px solid rgba(69, 69, 69, 0.416);
   border-radius: 8px;
-  margin: 5vmax;
+  margin: 3vmax;
 }
 .main-robotica .robotica-row .robotica-col h1 {
   font-family: "Dela Gothic One", sans-serif;
-  font-size: 6vmax;
+  font-size: 4vmax;
   color: #ffffff;
 }
 
@@ -329,6 +330,26 @@ footer {
   border-radius: 3vmax;
   box-shadow: 3px 3px 1px rgba(17, 17, 17, 0.774);
 }
+.row-roboto .robUno a {
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  color: #000000;
+  background-color: #f0971c;
+  padding: 0.5vmax 2.5vmax;
+  border-radius: 0 0.6vmax 0 0.6vmax;
+  font-size: 1vmax;
+  margin-bottom: 2vmax;
+}
+.row-roboto .robUno a:hover {
+  font-family: monospace;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.608);
+  padding: 3vmax 3.6vmax;
+  border-radius: 0 0 3vmax 3vmax;
+  margin-bottom: 0;
+  font-size: 1.3vmax;
+  text-shadow: rgba(255, 255, 255, 0.4941176471) 0 0 22px, rgba(169, 16, 121, 0.568627451) 0 0 15px, rgba(169, 16, 121, 0.6549019608) 0 0 15px, rgba(169, 16, 121, 0.6588235294) 0 0 25px;
+}
 .row-roboto .robDos {
   width: 18vmax;
   height: 18vmax;
@@ -337,6 +358,26 @@ footer {
   background-position: center center;
   border-radius: 3vmax;
   box-shadow: 3px 3px 1px rgba(17, 17, 17, 0.774);
+}
+.row-roboto .robDos a {
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  color: #000000;
+  background-color: #f0971c;
+  padding: 0.5vmax 2.5vmax;
+  border-radius: 0 0.6vmax 0 0.6vmax;
+  font-size: 1vmax;
+  margin-bottom: 2vmax;
+}
+.row-roboto .robDos a:hover {
+  font-family: monospace;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.608);
+  padding: 3vmax 5.4vmax;
+  border-radius: 0 0 3vmax 3vmax;
+  margin-bottom: 0;
+  font-size: 1.3vmax;
+  text-shadow: rgba(255, 255, 255, 0.4941176471) 0 0 22px, rgba(169, 16, 121, 0.568627451) 0 0 15px, rgba(169, 16, 121, 0.6549019608) 0 0 15px, rgba(169, 16, 121, 0.6588235294) 0 0 25px;
 }
 .row-roboto .robTres {
   width: 18vmax;
@@ -347,6 +388,26 @@ footer {
   border-radius: 3vmax;
   box-shadow: 3px 3px 1px rgba(17, 17, 17, 0.774);
 }
+.row-roboto .robTres a {
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  color: #000000;
+  background-color: #f0971c;
+  padding: 0.5vmax 2.5vmax;
+  border-radius: 0 0.6vmax 0 0.6vmax;
+  font-size: 1vmax;
+  margin-bottom: 2vmax;
+}
+.row-roboto .robTres a:hover {
+  font-family: monospace;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.608);
+  padding: 3vmax 6.47vmax;
+  border-radius: 0 0 3vmax 3vmax;
+  margin-bottom: 0;
+  font-size: 1.3vmax;
+  text-shadow: rgba(255, 255, 255, 0.4941176471) 0 0 22px, rgba(169, 16, 121, 0.568627451) 0 0 15px, rgba(169, 16, 121, 0.6549019608) 0 0 15px, rgba(169, 16, 121, 0.6588235294) 0 0 25px;
+}
 .row-roboto .robCuatro {
   width: 18vmax;
   height: 18vmax;
@@ -355,6 +416,77 @@ footer {
   background-position: center center;
   border-radius: 3vmax;
   box-shadow: 3px 3px 1px rgba(17, 17, 17, 0.774);
+}
+.row-roboto .robCuatro a {
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  color: #000000;
+  background-color: #f0971c;
+  padding: 0.5vmax 2.5vmax;
+  border-radius: 0 0.6vmax 0 0.6vmax;
+  font-size: 1vmax;
+  margin-bottom: 2vmax;
+}
+.row-roboto .robCuatro a:hover {
+  font-family: monospace;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.608);
+  padding: 3vmax 6.8vmax;
+  border-radius: 0 0 3vmax 3vmax;
+  margin-bottom: 0;
+  font-size: 1.3vmax;
+  text-shadow: rgba(255, 255, 255, 0.4941176471) 0 0 22px, rgba(169, 16, 121, 0.568627451) 0 0 15px, rgba(169, 16, 121, 0.6549019608) 0 0 15px, rgba(169, 16, 121, 0.6588235294) 0 0 25px;
+}
+
+.row-roboto-dos {
+  padding-bottom: 2vmax;
+}
+
+.rob {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: end;
+}
+
+.container-robotica {
+  background: linear-gradient(183deg, rgb(21, 0, 46) 1%, rgb(0, 0, 0) 74%);
+  height: 15vmax;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+.container-robotica .robotica {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.container-robotica .robotica .texto-robotica {
+  color: #ffffff;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-size: 3vmax;
+  font-weight: bold;
+  text-shadow: rgba(255, 255, 255, 0.4941176471) 0 0 12px, rgba(169, 16, 121, 0.568627451) 0 0 25px, rgba(169, 16, 121, 0.6549019608) 0 0 35px, rgba(169, 16, 121, 0.6588235294) 0 0 45px;
+}
+.container-robotica .robotica .robotica-h3 {
+  font-size: 2vmax;
+}
+.container-robotica .robotica a {
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  color: #000000;
+  background-color: #f0971c;
+  padding: 0.5vmax 2.5vmax;
+  border-radius: 0 0.6vmax 0 0.6vmax;
+  text-align: center;
+  font-family: "Dela Gothic One", sans-serif;
+  margin-top: 0vmax;
+  font-size: 1vmax;
+}
+.container-robotica .robotica a:hover {
+  color: #ffffff;
+  background-color: #4d1f59;
 }
 
 /* queries */
@@ -425,6 +557,12 @@ footer {
   }
   .contenedor-newsletter a {
     font-size: 1.3vmax;
+  }
+  /* ***************************************** */
+  /* robotica */
+  /* ***************************************** */
+  .robotica .robotica-boton {
+    margin-top: 0 !important;
   }
 }
 /* md devices (landscape tablets, 768px and up) */
@@ -557,7 +695,18 @@ footer {
   /* robotica */
   /* ***************************************** */
   .main-robotica {
-    background-position: right 13% center;
+    background-position: right 45% center;
+  }
+  .robotica-col {
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 3vmax;
+  }
+  .texto-robotica {
+    font-size: 0.8rem !important;
+  }
+  .robotica-h3 {
+    font-size: 0.5rem !important;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -585,6 +734,10 @@ footer {
   /* ***************************************** */
   .main-robotica {
     background-position: right 23% center;
+  }
+  .robotica-row {
+    display: flex;
+    justify-content: center;
   }
 }
 

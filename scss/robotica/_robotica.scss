@@ -9,20 +9,16 @@
     .robotica-row {
 
         
-
-
-
-
         .robotica-col {
 
             background: transparent;
             backdrop-filter: blur(8px);
             border: 1px solid rgba(69, 69, 69, 0.416);
             border-radius: 8px;
-            margin: 5vmax;
+            margin: 3vmax;
 
             h1 {
-                @include titulo-h1(6vmax);
+                @include titulo-h1(4vmax);
             }
             
         } 
@@ -39,6 +35,7 @@
     padding-top: 5vmax;
 
     
+    
     .robUno {
 
         width: 18vmax;
@@ -49,15 +46,27 @@
         border-radius: 3vmax;
         box-shadow: 3px 3px 1px rgba(17, 17, 17, 0.774);
 
+
+        a {
+            @include botones;
+            font-size: 1vmax;
+            margin-bottom: 2vmax;
+    
+    
+            &:hover {
+                font-family: monospace;
+                color: $color-seis;
+                background-color: rgba(0, 0, 0, 0.608);
+                padding: 3vmax 3.6vmax;
+                border-radius: 0 0 3vmax 3vmax;
+                margin-bottom: 0;
+                font-size: 1.3vmax;
+                text-shadow: $neon;
+            }
+    
+        }
+
     }
-
-    .robUno:hover {
-
-       
-        
-            
-    }
-
 
 
     .robDos {
@@ -69,6 +78,25 @@
         background-position: center center;
         border-radius: 3vmax;
         box-shadow: 3px 3px 1px rgba(17, 17, 17, 0.774);
+
+        a {
+            @include botones;
+            font-size: 1vmax;
+            margin-bottom: 2vmax;
+    
+    
+            &:hover {
+                font-family: monospace;
+                color: $color-seis;
+                background-color: rgba(0, 0, 0, 0.608);
+                padding: 3vmax 5.4vmax;
+                border-radius: 0 0 3vmax 3vmax;
+                margin-bottom: 0;
+                font-size: 1.3vmax;
+                text-shadow: $neon;
+            }
+    
+        }
 
     }
 
@@ -82,6 +110,28 @@
         border-radius: 3vmax;
         box-shadow: 3px 3px 1px rgba(17, 17, 17, 0.774);
 
+        a {
+            @include botones;
+            font-size: 1vmax;
+            margin-bottom: 2vmax;
+    
+    
+            &:hover {
+                font-family: monospace;
+                color: $color-seis;
+                background-color: rgba(0, 0, 0, 0.608);
+                padding: 3vmax 6.47vmax;
+                border-radius: 0 0 3vmax 3vmax;
+                margin-bottom: 0;
+                font-size: 1.3vmax;
+                text-shadow: $neon;
+
+
+
+            }
+    
+        }
+
     }
 
     .robCuatro {
@@ -94,5 +144,96 @@
         border-radius: 3vmax;
         box-shadow: 3px 3px 1px rgba(17, 17, 17, 0.774);
 
+
+        a {
+            @include botones;
+            font-size: 1vmax;
+            margin-bottom: 2vmax;
+    
+    
+            &:hover {
+                font-family: monospace;
+                color: $color-seis;
+                background-color: rgba(0, 0, 0, 0.608);
+                padding: 3vmax 6.8vmax;
+                border-radius: 0 0 3vmax 3vmax;
+                margin-bottom: 0;
+                font-size: 1.3vmax;
+                text-shadow: $neon;
+               
+            }
+    
+        }
+
     }
 }
+
+.row-roboto-dos {
+
+    padding-bottom: 2vmax;
+}
+
+.rob {
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: end;
+    
+
+   
+}
+
+.container-robotica {
+
+    background: linear-gradient(183deg, rgba(21,0,46,1) 1%, rgba(0,0,0,1) 74%);
+    height: 15vmax;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+
+    .robotica {
+
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+
+        .texto-robotica {
+            color: $color-seis;
+            font-family: $font-tres;
+            font-size: 3vmax;
+            font-weight: bold;
+
+            text-shadow: 
+            #ffffff7e 0 0 12px,
+            #a9107991 0 0 25px,
+            #a91079a7 0 0 35px,
+            #a91079a8 0 0 45px; 
+
+        }
+
+        .robotica-h3 {
+
+            font-size: 2vmax
+        }
+
+        a {
+            @include botones;
+
+            text-align: center;
+            font-family: $font-titulo;
+            margin-top: 0vmax;
+            font-size: 1vmax;
+           
+
+            &:hover {
+                @include botones-hover;
+
+            }
+        }
+
+
+    }
+}
+

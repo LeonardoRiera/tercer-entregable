@@ -47,9 +47,9 @@
         }
 
 
-    }
-     
-
+    } 
+    
+    
 
 
     
@@ -160,6 +160,21 @@
     }
 
 
+    /* ***************************************** */
+                   /* robotica */
+                  
+    /* ***************************************** */ 
+    
+    .robotica {
+
+        .robotica-boton {
+
+            margin-top: 0 !important;
+        }
+
+    }
+
+
     
 }
 
@@ -241,6 +256,8 @@
             }
         }
     }
+
+    
 
     
 }
@@ -432,9 +449,45 @@
     
     .main-robotica {
 
-        background-position: right 13% center;
-        
+        background-position: right 45% center;
+
+
+
+       
     }
+
+    
+
+       
+
+
+
+    .robotica-col {
+
+        width: 80%;
+        margin: 0 auto;
+        margin-left: 3vmax;
+
+       
+            
+    } 
+
+
+    .texto-robotica {
+
+        font-size: 0.8rem !important;
+    }
+
+    .robotica-h3 {
+
+        font-size: 0.5rem !important;
+    }
+   
+
+    
+
+
+    
    
 }
 
@@ -497,5 +550,13 @@
         background-position: right 23% center;
         
     }
+
+
+    .robotica-row {
+        display: flex;
+        justify-content: center;
+       
+        
+    } 
 }
   
