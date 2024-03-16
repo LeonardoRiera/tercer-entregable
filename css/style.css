@@ -2,6 +2,7 @@
 /* mixins  h3 parrafo */
 /* mixins botones */
 /* sombra neon */
+/* bloque inteligencia artificial */
 /* modificaciones del navegados de bootstrap */
 .titulo {
   font-family: "Dela Gothic One", sans-serif;
@@ -489,6 +490,52 @@ footer {
   background-color: #4d1f59;
 }
 
+.row-inteligencia {
+  background-image: url(/img/inteligencia-header.jpg);
+  background-size: cover;
+  background-position: center top 27%;
+  height: 35vmax;
+}
+
+.row-art {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.column-art {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  text-align: justify;
+  padding: 0 5vmax;
+}
+.column-art .titulo-art {
+  font-family: "Dela Gothic One", sans-serif;
+  color: #000000;
+  font-size: 2.5vmax;
+  padding-bottom: 2.5vmax;
+}
+.column-art .subtit-art {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-size: 1.8vmax;
+  color: #000000;
+  font-weight: bold;
+  padding-bottom: 1vmax;
+}
+.column-art .parrafo-art {
+  font-family: "Ubuntu", sans-serif;
+  color: #000000;
+  font-size: 1.2vmax;
+  padding-bottom: 1vmax;
+  box-sizing: border-box;
+}
+.column-art .foto-art {
+  width: 45vmax;
+  margin-bottom: 2.5vmax;
+  border-radius: 9px;
+  align-self: center;
+}
+
 /* queries */
 /* estructura media queries con break-point de bootstrap */
 /* xxl devices (large laptops and desktops, 1200px and up) */
@@ -708,6 +755,12 @@ footer {
   .robotica-h3 {
     font-size: 0.5rem !important;
   }
+  /* ***************************************** */
+  /* inteligencia artificial */
+  /* ***************************************** */
+  .column-art .parrafo-art {
+    font-size: 1.8vmax;
+  }
 }
 @media only screen and (max-width: 400px) {
   /* header */
@@ -738,6 +791,12 @@ footer {
   .robotica-row {
     display: flex;
     justify-content: center;
+  }
+  /* ***************************************** */
+  /* inteligencia artificial */
+  /* ***************************************** */
+  .column-art .foto-art {
+    width: 35vmax;
   }
 }
 

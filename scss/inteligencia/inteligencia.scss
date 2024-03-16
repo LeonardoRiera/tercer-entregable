@@ -1,0 +1,64 @@
+
+
+
+
+.row-inteligencia {
+
+    
+
+        
+    background-image: url(/img/inteligencia-header.jpg);
+    background-size: cover;
+    background-position: center top 27%;
+    height: 35vmax;
+
+    
+}
+
+.row-art {
+
+    display: flex;
+    flex-flow: row wrap;
+}
+.column-art {
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: justify;
+    padding: 0 5vmax;
+   
+
+
+    .titulo-art {
+
+       @include articulo-h1;
+
+    }
+
+    .subtit-art {
+
+        @include articulo-subtit;
+        
+
+    }
+
+    .parrafo-art {
+
+        @include articulo-parrafo;
+        
+
+    }
+
+    .foto-art {
+
+        width: 45vmax;
+        margin-bottom: 2.5vmax;
+        border-radius: 9px;
+        align-self: center;
+        
+    }
+
+
+
+}

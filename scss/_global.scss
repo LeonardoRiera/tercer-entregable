@@ -95,8 +95,45 @@ $font-tres: "Nanum Gothic Coding", monospace;
 /* sombra neon */
 
 
-$neon: #ffffff7e 0 0 22px,
-       #a9107991 0 0 15px,
-       #a91079a7 0 0 15px,
-       #a91079a8 0 0 25px; 
+$neon: 
+    #ffffff7e 0 0 22px,
+    #a9107991 0 0 15px,
+    #a91079a7 0 0 15px,
+    #a91079a8 0 0 25px; 
 
+
+
+/* bloque inteligencia artificial */     
+
+
+
+@mixin articulo-h1 {
+
+    font-family: $font-titulo;
+    color: $color-cinco;
+    font-size: 2.5vmax;
+    padding-bottom: 2.5vmax;
+
+}
+
+
+@mixin articulo-subtit {
+
+    font-family: $font-tres;
+    font-size: 1.8vmax;
+    color: $color-cinco;
+    font-weight: bold;
+    padding-bottom: 1vmax;
+}
+
+
+@mixin articulo-parrafo {
+
+    font-family: $font-parrafo;
+    color: $color-cinco;
+    font-size: 1.2vmax;
+    padding-bottom: 1vmax;
+    box-sizing: border-box;
+
+
+}
