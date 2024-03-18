@@ -587,6 +587,61 @@ footer {
   background-color: #4d1f59;
 }
 
+.row-seguridad {
+  background-image: url(/img/ciber-header.jpg);
+  background-size: cover;
+  background-position: center top 27%;
+  height: 35vmax;
+}
+
+.banner-row {
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+  margin: 5vmax auto;
+}
+.banner-row .banner-col {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.banner-row .banner-col .banner-logo {
+  width: 10vmax;
+}
+.banner-row .banner-col .banner-ancor {
+  flex-flow: row nowrap;
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  color: #000000;
+  background-color: #f0971c;
+  padding: 0.5vmax 2.5vmax;
+  border-radius: 0 0.6vmax 0 0.6vmax;
+  text-decoration: none;
+  margin-top: 2vmax;
+  margin-bottom: 2vmax;
+  font-size: 1vmax;
+  font-weight: bold;
+}
+.banner-row .banner-col .banner-ancor:hover {
+  color: #ffffff;
+  background-color: #4d1f59;
+}
+
+.container-seguridad {
+  background: linear-gradient(183deg, rgb(21, 0, 46) 1%, rgb(0, 0, 0) 74%);
+  height: 12vmax;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+.container-seguridad .texto-seguridad {
+  font-family: "Dela Gothic One", sans-serif;
+  color: #ffffff;
+  font-size: 3vmax;
+}
+
 /* queries */
 /* estructura media queries con break-point de bootstrap */
 /* xxl devices (large laptops and desktops, 1200px and up) */
@@ -862,6 +917,12 @@ footer {
   /* ***************************************** */
   .column-art .foto-art {
     width: 35vmax;
+  }
+  /* ***************************************** */
+  /* seguridad */
+  /* ***************************************** */
+  .container-seguridad .texto-seguridad {
+    font-size: 2.5vmax;
   }
 }
 

@@ -1,0 +1,80 @@
+
+
+.row-seguridad {
+
+    
+
+        
+    background-image: url(/img/ciber-header.jpg);
+    background-size: cover;
+    background-position: center top 27%;
+    height: 35vmax;
+
+    
+}
+
+
+
+.banner-row {
+
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    margin: 5vmax auto;
+    
+
+
+    .banner-col {
+
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+
+
+        .banner-logo {
+
+            width: 10vmax;
+
+        }
+
+        .banner-ancor {
+            flex-flow: row nowrap;
+            @include botones;
+            text-decoration: none;
+            margin-top: 2vmax;
+            margin-bottom: 2vmax;
+            font-size: 1vmax;
+            font-weight: bold;
+            
+            
+            &:hover {
+
+                @include botones-hover;
+            }
+
+        }
+
+        
+    }
+}
+
+
+.container-seguridad {
+    background: linear-gradient(183deg, rgba(21,0,46,1) 1%, rgba(0,0,0,1) 74%);
+    height: 12vmax;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+
+
+    .texto-seguridad {
+
+        font-family: $font-titulo;
+        color: $color-seis;
+        font-size: 3vmax;
+    }
+    
+}
+
