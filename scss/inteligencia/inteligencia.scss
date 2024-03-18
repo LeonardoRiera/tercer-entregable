@@ -24,9 +24,10 @@
 
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: start;
     text-align: justify;
     padding: 0 5vmax;
+    margin-top: 2vmax;
    
 
 
@@ -57,6 +58,68 @@
         border-radius: 9px;
         align-self: center;
         
+    }
+
+
+
+}
+
+
+.column-ia {
+    
+    
+    
+    
+    
+    
+
+
+    .ia-h2 {
+
+        @include articulo-h1;
+        text-align: center;
+        font-size: 1.5vmax;
+        padding-top: 2vmax;
+    }
+
+    .bloque-ia {
+
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        background-color: rgb(238, 238, 142);
+    
+        
+        padding: 1vmax 0;
+        
+
+        i {
+            img { width: 7vmax;}
+            margin-bottom: 0.8vmax;
+            margin-top: 0.8vmax
+        }
+
+        a {
+            @include botones;
+            font-size: 0.9vmax;
+            margin-bottom: 0.8vmax
+        }
+
+        p {
+
+            @include articulo-parrafo;
+            font-size: 1vmax;
+            margin-bottom: 0.8vmax;
+            padding: 0 2vmax;
+        }
+
+        a:hover {
+
+            @include botones-hover;
+        }
+
     }
 
 

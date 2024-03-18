@@ -505,9 +505,10 @@ footer {
 .column-art {
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
+  justify-content: start;
   text-align: justify;
   padding: 0 5vmax;
+  margin-top: 2vmax;
 }
 .column-art .titulo-art {
   font-family: "Dela Gothic One", sans-serif;
@@ -534,6 +535,56 @@ footer {
   margin-bottom: 2.5vmax;
   border-radius: 9px;
   align-self: center;
+}
+
+.column-ia .ia-h2 {
+  font-family: "Dela Gothic One", sans-serif;
+  color: #000000;
+  font-size: 2.5vmax;
+  padding-bottom: 2.5vmax;
+  text-align: center;
+  font-size: 1.5vmax;
+  padding-top: 2vmax;
+}
+.column-ia .bloque-ia {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  background-color: rgb(238, 238, 142);
+  padding: 1vmax 0;
+}
+.column-ia .bloque-ia i {
+  margin-bottom: 0.8vmax;
+  margin-top: 0.8vmax;
+}
+.column-ia .bloque-ia i img {
+  width: 7vmax;
+}
+.column-ia .bloque-ia a {
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  color: #000000;
+  background-color: #f0971c;
+  padding: 0.5vmax 2.5vmax;
+  border-radius: 0 0.6vmax 0 0.6vmax;
+  font-size: 0.9vmax;
+  margin-bottom: 0.8vmax;
+}
+.column-ia .bloque-ia p {
+  font-family: "Ubuntu", sans-serif;
+  color: #000000;
+  font-size: 1.2vmax;
+  padding-bottom: 1vmax;
+  box-sizing: border-box;
+  font-size: 1vmax;
+  margin-bottom: 0.8vmax;
+  padding: 0 2vmax;
+}
+.column-ia .bloque-ia a:hover {
+  color: #ffffff;
+  background-color: #4d1f59;
 }
 
 /* queries */
@@ -650,6 +701,20 @@ footer {
     margin: 0;
     padding: 0;
     font-size: 1.3vmax;
+  }
+  /* ***************************************** */
+  /* inteligencia artificial */
+  /* ***************************************** */
+  .row-art {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .column-ia {
+    align-self: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 80%;
   }
 }
 /* sm devices (portrait tablets and large) */
