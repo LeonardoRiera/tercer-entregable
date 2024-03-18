@@ -78,3 +78,15 @@ footer {
         @include botones-hover;
     }
 }
+
+
+.volver {
+
+    text-decoration: none;
+    padding-bottom: 3vmax;
+    color: $color-uno;
+
+    &:hover {
+        color: $color-dos;
+    }
+}

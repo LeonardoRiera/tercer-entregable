@@ -297,6 +297,15 @@ footer {
   background-color: #4d1f59;
 }
 
+.volver {
+  text-decoration: none;
+  padding-bottom: 3vmax;
+  color: #f0971c;
+}
+.volver:hover {
+  color: #4d1f59;
+}
+
 .main-robotica {
   background-image: url(/img/foto-robotica.jpg);
   background-size: cover;
@@ -836,6 +845,7 @@ footer {
   .row-art {
     display: flex;
     flex-flow: column wrap;
+    align-items: center;
   }
   .column-ia {
     align-self: center;
