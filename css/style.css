@@ -38,7 +38,7 @@ header {
   margin-bottom: 4vmax;
   color: #ffffff;
 }
-.row-header .header-texto h2 {
+.row-header .header-texto h2, .row-header .header-texto .about-main .about-row .about-col p, .about-main .about-row .about-col .row-header .header-texto p {
   font-family: "Ubuntu", sans-serif;
   margin-bottom: 5vmax;
   font-size: 2vmax;
@@ -84,7 +84,7 @@ article {
 article .article-titulos {
   padding: 3vmax 1vmax;
 }
-article .article-titulos h2 {
+article .article-titulos h2, article .article-titulos .about-main .about-row .about-col p, .about-main .about-row .about-col article .article-titulos p {
   font-family: "Dela Gothic One", sans-serif;
   font-size: 3vmax;
   color: #ffffff;
@@ -180,7 +180,7 @@ article .article-titulos p {
   background: linear-gradient(183deg, rgb(21, 0, 46) 1%, rgb(0, 0, 0) 74%);
   padding-bottom: 5vmax;
 }
-.new-tech .new-tech-title h2 {
+.new-tech .new-tech-title h2, .new-tech .new-tech-title .about-main .about-row .about-col p, .about-main .about-row .about-col .new-tech .new-tech-title p {
   padding: 2vmax;
   background-color: #f0971c;
   font-family: "Dela Gothic One", sans-serif;
@@ -659,7 +659,7 @@ footer {
   background-color: rgba(0, 0, 0, 0.288);
   padding: 2vmax;
 }
-.row-ciber .col-ciber h2 {
+.row-ciber .col-ciber h2, .row-ciber .col-ciber .about-main .about-row .about-col p, .about-main .about-row .about-col .row-ciber .col-ciber p {
   font-family: "Dela Gothic One", sans-serif;
   color: #ffffff;
   font-size: 2vmax;
@@ -670,6 +670,49 @@ footer {
   font-size: 1vmax;
   color: #ffffff;
   padding-bottom: 1vmax;
+}
+
+.carousel-item img {
+  height: 35vmax;
+  width: 100%;
+  object-fit: cover;
+  object-position: center bottom 40%;
+}
+.carousel-item .carousel-caption h5 {
+  font-family: "Dela Gothic One", sans-serif;
+  color: #f0971c;
+  font-size: 3vmax;
+  background: transparent;
+  backdrop-filter: blur(5px);
+  text-shadow: 3px 3px 5px #000000;
+}
+.carousel-item .carousel-caption p {
+  font-family: "Ubuntu", sans-serif;
+  color: #000000;
+  font-size: 2vmax;
+  background: transparent;
+  backdrop-filter: blur(5px);
+  font-weight: bold;
+  text-shadow: 2px 2px 1px #ffffff;
+}
+
+.about-main .about-row {
+  width: 60%;
+  margin: 2vmax auto;
+}
+.about-main .about-row .about-col {
+  text-align: justify;
+}
+.about-main .about-row .about-col h2, .about-main .about-row .about-col p {
+  text-align: center;
+  font-family: "Dela Gothic One", sans-serif;
+  font-size: 3vmax;
+  color: #000000;
+  padding-bottom: 2vmax;
+}
+.about-main .about-row .about-col p {
+  font-size: 1.2vmax;
+  font-family: "Ubuntu", sans-serif;
 }
 
 /* queries */
@@ -757,7 +800,7 @@ footer {
   .row-header .header-texto h1 {
     font-size: 4.5vmax;
   }
-  .row-header .header-texto h2 {
+  .row-header .header-texto h2, .row-header .header-texto .about-main .about-row .about-col p, .about-main .about-row .about-col .row-header .header-texto p {
     font-size: 1.4vmax;
   }
   .row-header .header-texto a {
@@ -810,7 +853,7 @@ footer {
     margin-top: 1vmax;
     padding: 1.8vmax;
   }
-  .col-ciber h2 {
+  .col-ciber h2, .col-ciber .about-main .about-row .about-col p, .about-main .about-row .about-col .col-ciber p {
     font-size: 1.8vmax;
     padding-bottom: 1vmax;
   }
@@ -944,7 +987,7 @@ footer {
     padding: 1.3vmax;
     margin: 1vmax 2vmax 1vmax 0;
   }
-  .col-ciber h2 {
+  .col-ciber h2, .col-ciber .about-main .about-row .about-col p, .about-main .about-row .about-col .col-ciber p {
     font-size: 1.6vmax;
     padding-bottom: 1vmax;
   }
@@ -953,13 +996,19 @@ footer {
     margin-bottom: 0;
     padding-bottom: 0.4vmax;
   }
+  /* ***************************************** */
+  /* about us */
+  /* ***************************************** */
+  .about-row {
+    width: 80% !important;
+  }
 }
 @media only screen and (max-width: 400px) {
   /* header */
   .row-header .header-texto h1 {
     font-size: 4vmax;
   }
-  .row-header .header-texto h2 {
+  .row-header .header-texto h2, .row-header .header-texto .about-main .about-row .about-col p, .about-main .about-row .about-col .row-header .header-texto p {
     font-size: 1vmax;
   }
   /* franja animada */
@@ -1008,7 +1057,7 @@ footer {
     padding: 1.3vmax;
     margin: 2vmax !important;
   }
-  .col-ciber h2 {
+  .col-ciber h2, .col-ciber .about-main .about-row .about-col p, .about-main .about-row .about-col .col-ciber p {
     text-align: center;
     font-size: 0.7vmax;
     padding-bottom: 0.5vmax;
