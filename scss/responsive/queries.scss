@@ -279,6 +279,43 @@
         width: 80%;
     }
 
+
+
+
+
+    
+     /* ***************************************** */
+            /* ciber seguridad */
+                  
+    /* ***************************************** */ 
+
+    .col-ciber {
+
+        width: 90%;
+        
+        margin-right: 4vmax;
+        margin-top: 1vmax;
+        padding: 1.8vmax;
+
+
+        h2 {
+            
+            
+            font-size: 1.8vmax;
+            padding-bottom: 1vmax;
+        }
+
+        p {
+            
+            font-size: 1vmax;
+            margin-bottom: 0;
+            padding-bottom: 0.4vmax;
+        }
+        
+
+
+    }
+
     
 
     
@@ -520,7 +557,45 @@
         }
     }
    
+    
+    
+    /* ***************************************** */
+            /* ciber seguridad */
+                  
+    /* ***************************************** */ 
 
+
+    .row-ciber {
+        
+        background-position: center top 40%;
+        height: 80vmax;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: end;
+    }
+
+    .col-ciber {
+
+        width: 100%;
+        
+        padding: 1.3vmax;
+        margin: 1vmax 2vmax 1vmax 0;
+
+
+        h2 {
+            
+            
+            font-size: 1.6vmax;
+            padding-bottom: 1vmax;
+        }
+
+        p {
+            
+            font-size: 0.8vmax;
+            margin-bottom: 0;
+            padding-bottom: 0.4vmax;
+        }
+    }    
     
 
 
@@ -627,5 +702,43 @@
             font-size: 2.5vmax;
         }
     }
+
+
+
+    .row-ciber {
+        
+        background-position: right 60% top 40%;
+        height: 105vmax;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        
+        
+        
+    }
+
+    .col-ciber {
+
+       
+        text-align: start;
+       
+        padding: 1.3vmax;
+        margin: 2vmax !important;
+
+
+        h2 {
+            
+            text-align: center;
+            font-size: 0.7vmax;
+            padding-bottom: 0.5vmax;
+        }
+
+        p {
+            
+            font-size: 0.3vmax;
+            margin-bottom: 0;
+            padding-bottom: 0.2vmax;
+        }
+    }   
 }
   

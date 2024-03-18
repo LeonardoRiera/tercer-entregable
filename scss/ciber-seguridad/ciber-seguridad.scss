@@ -78,3 +78,48 @@
     
 }
 
+
+
+.row-ciber {
+
+
+         
+    background-image: url(/img/bloque-ciber.jpg);
+    background-size: cover;
+    background-position: right top 40%;
+    height: 75vmax;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: end;
+    
+
+
+    .col-ciber {
+
+        width: 60%;
+        text-align: justify;
+        margin-right: 8vmax;
+        margin-top: 3vmax;
+        background-color: rgba(0, 0, 0, 0.288);
+        padding: 2vmax;
+
+
+        h2 {
+            font-family: $font-titulo;
+            color: $color-seis;
+            font-size: 2vmax;
+            padding-bottom: 1vmax;
+        }
+
+        p {
+            font-family: $font-parrafo;
+            font-size: 1vmax;
+            color: $color-seis;
+            padding-bottom: 1vmax;
+        }
+        
+
+
+    }
+}
+

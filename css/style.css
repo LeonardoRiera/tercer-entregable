@@ -642,6 +642,36 @@ footer {
   font-size: 3vmax;
 }
 
+.row-ciber {
+  background-image: url(/img/bloque-ciber.jpg);
+  background-size: cover;
+  background-position: right top 40%;
+  height: 75vmax;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: end;
+}
+.row-ciber .col-ciber {
+  width: 60%;
+  text-align: justify;
+  margin-right: 8vmax;
+  margin-top: 3vmax;
+  background-color: rgba(0, 0, 0, 0.288);
+  padding: 2vmax;
+}
+.row-ciber .col-ciber h2 {
+  font-family: "Dela Gothic One", sans-serif;
+  color: #ffffff;
+  font-size: 2vmax;
+  padding-bottom: 1vmax;
+}
+.row-ciber .col-ciber p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1vmax;
+  color: #ffffff;
+  padding-bottom: 1vmax;
+}
+
 /* queries */
 /* estructura media queries con break-point de bootstrap */
 /* xxl devices (large laptops and desktops, 1200px and up) */
@@ -771,6 +801,24 @@ footer {
     align-items: center;
     width: 80%;
   }
+  /* ***************************************** */
+  /* ciber seguridad */
+  /* ***************************************** */
+  .col-ciber {
+    width: 90%;
+    margin-right: 4vmax;
+    margin-top: 1vmax;
+    padding: 1.8vmax;
+  }
+  .col-ciber h2 {
+    font-size: 1.8vmax;
+    padding-bottom: 1vmax;
+  }
+  .col-ciber p {
+    font-size: 1vmax;
+    margin-bottom: 0;
+    padding-bottom: 0.4vmax;
+  }
 }
 /* sm devices (portrait tablets and large) */
 @media only screen and (max-width: 576px) {
@@ -881,6 +929,30 @@ footer {
   .column-art .parrafo-art {
     font-size: 1.8vmax;
   }
+  /* ***************************************** */
+  /* ciber seguridad */
+  /* ***************************************** */
+  .row-ciber {
+    background-position: center top 40%;
+    height: 80vmax;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: end;
+  }
+  .col-ciber {
+    width: 100%;
+    padding: 1.3vmax;
+    margin: 1vmax 2vmax 1vmax 0;
+  }
+  .col-ciber h2 {
+    font-size: 1.6vmax;
+    padding-bottom: 1vmax;
+  }
+  .col-ciber p {
+    font-size: 0.8vmax;
+    margin-bottom: 0;
+    padding-bottom: 0.4vmax;
+  }
 }
 @media only screen and (max-width: 400px) {
   /* header */
@@ -923,6 +995,28 @@ footer {
   /* ***************************************** */
   .container-seguridad .texto-seguridad {
     font-size: 2.5vmax;
+  }
+  .row-ciber {
+    background-position: right 60% top 40%;
+    height: 105vmax;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  .col-ciber {
+    text-align: start;
+    padding: 1.3vmax;
+    margin: 2vmax !important;
+  }
+  .col-ciber h2 {
+    text-align: center;
+    font-size: 0.7vmax;
+    padding-bottom: 0.5vmax;
+  }
+  .col-ciber p {
+    font-size: 0.3vmax;
+    margin-bottom: 0;
+    padding-bottom: 0.2vmax;
   }
 }
 
