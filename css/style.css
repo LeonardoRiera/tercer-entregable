@@ -307,7 +307,7 @@ footer {
 }
 
 .main-robotica {
-  background-image: url(/img/foto-robotica.jpg);
+  background-image: url(../img/foto-robotica.jpg);
   background-size: cover;
   background-position: center center;
   height: 80vmax;
@@ -334,7 +334,7 @@ footer {
 .row-roboto .robUno {
   width: 18vmax;
   height: 18vmax;
-  background-image: url(/img/robotoTres.jpg);
+  background-image: url(../img/robotoTres.jpg);
   background-size: cover;
   background-position: center center;
   border-radius: 3vmax;
@@ -363,7 +363,7 @@ footer {
 .row-roboto .robDos {
   width: 18vmax;
   height: 18vmax;
-  background-image: url(/img/robotoDos.jpg);
+  background-image: url(../img/robotoDos.jpg);
   background-size: cover;
   background-position: center center;
   border-radius: 3vmax;
@@ -392,7 +392,7 @@ footer {
 .row-roboto .robTres {
   width: 18vmax;
   height: 18vmax;
-  background-image: url(/img/robotoUno.jpg);
+  background-image: url(../img/robotoUno.jpg);
   background-size: cover;
   background-position: center center;
   border-radius: 3vmax;
@@ -421,7 +421,7 @@ footer {
 .row-roboto .robCuatro {
   width: 18vmax;
   height: 18vmax;
-  background-image: url(/img/robotoCuatro.jpg);
+  background-image: url(../img/robotoCuatro.jpg);
   background-size: cover;
   background-position: center center;
   border-radius: 3vmax;
@@ -500,7 +500,7 @@ footer {
 }
 
 .row-inteligencia {
-  background-image: url(/img/inteligencia-header.jpg);
+  background-image: url(../img/inteligencia-header.jpg);
   background-size: cover;
   background-position: center top 27%;
   height: 35vmax;
@@ -597,7 +597,7 @@ footer {
 }
 
 .row-seguridad {
-  background-image: url(/img/ciber-header.jpg);
+  background-image: url(../img/ciber-header.jpg);
   background-size: cover;
   background-position: center top 27%;
   height: 35vmax;
@@ -652,7 +652,7 @@ footer {
 }
 
 .row-ciber {
-  background-image: url(/img/bloque-ciber.jpg);
+  background-image: url(../img/bloque-ciber.jpg);
   background-size: cover;
   background-position: right top 40%;
   height: 75vmax;
