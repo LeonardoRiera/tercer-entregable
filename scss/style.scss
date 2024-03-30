@@ -1,16 +1,16 @@
 
 @import "global";
-@import "nav";
-@import "header";
-@import "franja-animada";
-@import "article";
-@import "new-tech";
-@import "separador";
-@import "footer";
-@import "robotica/robotica";
-@import "inteligencia/inteligencia.scss";
-@import "ciber-seguridad/ciber-seguridad";
-@import "about-us/about-us.scss";
+@import "index-estilos/nav";
+@import "index-estilos/header";
+@import "index-estilos/franja-animada";
+@import "index-estilos/article";
+@import "index-estilos/new-tech";
+@import "index-estilos/separador";
+@import "index-estilos/footer";
+@import "pages/robotica";
+@import "pages/inteligencia.scss";
+@import "pages/ciber-seguridad.scss";
+@import "pages/about-us.scss";
 
 
 
