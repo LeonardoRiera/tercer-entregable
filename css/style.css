@@ -1,7 +1,6 @@
-/* paleta de colores del proyecto */
+/* sombra neon */
 /* mixins  h3 parrafo */
 /* mixins botones */
-/* sombra neon */
 /* bloque inteligencia artificial */
 /* modificaciones del navegados de bootstrap */
 .titulo {
@@ -16,15 +15,19 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-header {
+.header-principal {
   background-image: url(../img/header-foto.jpg);
   background-size: cover;
   background-position: center center;
-  height: 36vmax;
+  height: 40vmax;
   display: flex;
+  flex-flow: column wrap;
   justify-content: start;
 }
 
+.row-header {
+  margin-top: 3vmax;
+}
 .row-header .header-texto {
   display: flex;
   flex-flow: column wrap;
@@ -909,52 +912,67 @@ footer {
     flex-direction: column-reverse;
   }
   /* footer */
+  footer {
+    height: 80vmax;
+  }
   .footer-row {
     margin-bottom: 0;
     padding-bottom: 0;
     margin-top: 10vmax;
+    flex-flow: column;
     justify-content: center;
     gap: 8vmax;
   }
-  .contenedor-contactos h3 {
-    font-size: 2.1vmax;
+  .contenedor-contactos {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
   }
-  .contenedor-contactos .direccion i {
-    display: none;
+  .contenedor-contactos h3 {
+    font-size: 2.7vmax;
+  }
+  .contenedor-contactos .direccion {
+    padding-top: 1vmax;
   }
   .contenedor-contactos .direccion p {
-    font-size: 1vmax;
+    font-size: 2vmax;
   }
-  .contenedor-contactos .telefono i {
-    display: none;
+  .contenedor-contactos .telefono {
+    padding-top: 1vmax;
   }
   .contenedor-contactos .telefono p {
-    font-size: 1vmax;
-  }
-  .contenedor-contactos .mail i {
-    display: none;
+    font-size: 2vmax;
   }
   .contenedor-contactos .mail a {
-    font-size: 1vmax;
+    font-size: 1.8vmax;
   }
   .contenedor-contactos .redes {
     display: flex;
     flex-flow: row nowrap;
   }
   .contenedor-contactos .redes a {
-    font-size: 1.8vmax;
+    font-size: 3.5vmax;
   }
   .contenedor-links {
     display: none;
+  }
+  .contenedor-newsletter {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
   }
   .contenedor-newsletter h3 {
     font-size: 2.1vmax;
   }
   .contenedor-newsletter p {
-    font-size: 1.1vmax;
+    font-size: 1.6vmax;
   }
   .contenedor-newsletter a {
-    font-size: 1.1vmax;
+    font-size: 1.8vmax;
   }
   .texto-derechos p {
     font-size: 1.1vmax;
@@ -1029,6 +1047,9 @@ footer {
   .contenedor-contactos {
     padding: 0;
     margin: 0;
+  }
+  .contenedor-contactos .direccion p {
+    font-size: 2vmax;
   }
   .contenedor-newsletter a {
     font-size: 0.8vmax;

@@ -1,18 +1,19 @@
 
 
 
-header {
+.header-principal {
     background-image: url(../img/header-foto.jpg);
     background-size: cover;
     background-position: center center;
-    height: 36vmax;
+    height: 40vmax;
     display: flex;
+    flex-flow: column wrap;
     justify-content: start;
 }
 
 .row-header {
 
-    
+    margin-top: 3vmax;
 
     .header-texto {
 

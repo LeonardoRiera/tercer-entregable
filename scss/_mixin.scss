@@ -1,19 +1,4 @@
 
-/* paleta de colores del proyecto */
-
-$color-uno: #f0971c;
-$color-dos: #4d1f59;
-$color-tres: #9e0b41;
-$color-cuatro: #4a073c; 
-$color-cinco: #000000;
-$color-seis: #ffffff;
-
-$font-titulo: "Dela Gothic One", sans-serif;
-$font-parrafo: "Ubuntu", sans-serif; 
-$font-tres: "Nanum Gothic Coding", monospace;
-
-
-
 @mixin titulo-h1 ($size-h1) {
 
     font-family: $font-titulo;
@@ -92,14 +77,6 @@ $font-tres: "Nanum Gothic Coding", monospace;
 
 
 
-/* sombra neon */
-
-
-$neon: 
-    #ffffff7e 0 0 22px,
-    #a9107991 0 0 15px,
-    #a91079a7 0 0 15px,
-    #a91079a8 0 0 25px; 
 
 
 

@@ -77,9 +77,12 @@
 
     /* footer */
 
+    
+
     .contenedor-contactos {
 
         padding-left: 7vmax;
+        
 
         h3 {
 
@@ -399,16 +402,28 @@
 
     /* footer */
 
+    footer {
+        height: 80vmax;
+    }
+
     .footer-row {
         margin-bottom: 0;
         padding-bottom: 0;
         margin-top: 10vmax;
+        flex-flow: column;
         justify-content: center;
         gap: 8vmax;
         
     }
 
+    
+
     .contenedor-contactos {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        margin: 0;
+        padding: 0;
 
         
        
@@ -417,31 +432,34 @@
 
         h3 {
 
-            font-size: 2.1vmax;
+            font-size: 2.7vmax;
         }
 
         .direccion {
+            padding-top: 1vmax;
            
             i {
-                display: none;
+                
                 
                 
             }
 
             p {
-                font-size: 1vmax; 
+                font-size: 2vmax; 
             }
         }
 
         .telefono {
+            padding-top: 1vmax;
 
            i {
-            display: none;
+            
              } 
            
 
            p {
-            font-size: 1vmax;
+            
+            font-size: 2vmax;
             } 
        
         }
@@ -451,11 +469,11 @@
         .mail {
 
 
-            i {display: none;
+            i {
                 } 
 
             a {
-                font-size: 1vmax;
+                font-size: 1.8vmax;
 
             }
 
@@ -467,7 +485,7 @@
             flex-flow: row nowrap;
 
             a {
-                font-size: 1.8vmax; 
+                font-size: 3.5vmax; 
                 
             }
         }
@@ -479,17 +497,24 @@
     }
 
     .contenedor-newsletter {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+
+        
         h3 {
             font-size: 2.1vmax;
         }
 
         p {
-            font-size: 1.1vmax; 
+            font-size: 1.6vmax; 
         }
 
 
         a {
-            font-size: 1.1vmax;  
+            font-size: 1.8vmax;  
         }
     }
 
@@ -650,11 +675,24 @@
     }
 
 
+
+
+
     /* footer */
+
+   
     .contenedor-contactos {
         padding: 0;
         margin: 0;
+
+        .direccion {
+            p {
+                font-size: 2vmax;
+            }
+        }
     }
+
+
 
     .contenedor-newsletter {
         
