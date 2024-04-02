@@ -17,8 +17,11 @@
             border-radius: 8px;
             margin: 3vmax;
 
-            h1 {
-                @include titulo-h1(4vmax);
+            h2 {
+                
+                @include titulo-h1(2.5vmax);
+                padding-top: 2vmax;
+                padding-left: 1vmax;
             }
             
         } 

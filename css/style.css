@@ -194,7 +194,7 @@ article .article-titulos p {
 .new-tech .new-tech-title p {
   font-family: "Ubuntu", sans-serif;
   color: #ffffff;
-  font-size: 1.2vmax;
+  font-size: 1.4vmax;
   color: #f0971c;
   padding: 3vmax 10vmax;
   background-color: rgba(255, 255, 255, 0.038);
@@ -322,10 +322,12 @@ footer {
   border-radius: 8px;
   margin: 3vmax;
 }
-.main-robotica .robotica-row .robotica-col h1 {
+.main-robotica .robotica-row .robotica-col h2, .main-robotica .robotica-row .robotica-col .about-main .about-row .about-col p, .about-main .about-row .about-col .main-robotica .robotica-row .robotica-col p {
   font-family: "Dela Gothic One", sans-serif;
-  font-size: 4vmax;
+  font-size: 2.5vmax;
   color: #ffffff;
+  padding-top: 2vmax;
+  padding-left: 1vmax;
 }
 
 .row-roboto {
@@ -651,6 +653,11 @@ footer {
 .container-seguridad .texto-seguridad {
   font-family: "Dela Gothic One", sans-serif;
   color: #ffffff;
+  font-size: 2vmax;
+}
+.container-seguridad .texto-header {
+  font-family: "Dela Gothic One", sans-serif;
+  color: #ffffff;
   font-size: 3vmax;
 }
 
@@ -857,6 +864,13 @@ footer {
     align-items: center;
     width: 80%;
   }
+  .column-ia .bloque-ia p {
+    font-size: 1.7vmax;
+  }
+  .column-ia .bloque-ia a {
+    font-size: 1.9vmax;
+    margin-bottom: 1.2vmax;
+  }
   /* ***************************************** */
   /* ciber seguridad */
   /* ***************************************** */
@@ -910,6 +924,10 @@ footer {
   }
   .rotacion {
     flex-direction: column-reverse;
+  }
+  /* cards */
+  .new-tech-title p {
+    font-size: 1.6vmax !important;
   }
   /* footer */
   footer {
@@ -1000,18 +1018,26 @@ footer {
   .column-art .parrafo-art {
     font-size: 1.8vmax;
   }
+  .column-art .foto-art {
+    width: 38vmax;
+  }
+  .separador a .parrafo-publicidad-ia {
+    font-size: 1.8vmax;
+  }
   /* ***************************************** */
   /* ciber seguridad */
   /* ***************************************** */
   .row-ciber {
     background-position: center top 40%;
-    height: 80vmax;
+    height: 60vmax;
     display: flex;
     flex-flow: column wrap;
     align-items: end;
+    justify-content: center;
   }
   .col-ciber {
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.636);
     padding: 1.3vmax;
     margin: 1vmax 2vmax 1vmax 0;
   }
@@ -1023,6 +1049,9 @@ footer {
     font-size: 0.8vmax;
     margin-bottom: 0;
     padding-bottom: 0.4vmax;
+  }
+  .col-ciber .texto-colapsable {
+    display: none;
   }
   /* ***************************************** */
   /* about us */
@@ -1074,8 +1103,8 @@ footer {
     font-size: 2.5vmax;
   }
   .row-ciber {
-    background-position: right 60% top 40%;
-    height: 105vmax;
+    background-position: right 45% top 40%;
+    height: 70vmax;
     display: flex;
     flex-flow: column wrap;
     align-items: center;

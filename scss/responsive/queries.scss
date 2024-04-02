@@ -281,6 +281,20 @@
         flex-flow: column wrap;
         align-items: center;
         width: 80%;
+
+
+        .bloque-ia {
+
+            p {
+    
+                font-size: 1.7vmax;
+            }
+
+            a {
+                font-size: 1.9vmax;
+                margin-bottom: 1.2vmax
+            }
+        }
     }
 
 
@@ -364,7 +378,8 @@
            
             justify-content: center;
             padding-bottom: 3vmax;
-          }
+        }
+
         .noticia {
             
            padding: 0 10%;
@@ -398,6 +413,21 @@
 
         flex-direction: column-reverse;
     }
+
+
+
+
+    /* cards */
+
+    .new-tech-title {
+
+        p {
+           font-size: 1.6vmax !important;
+        }
+    }
+
+
+
 
 
     /* footer */
@@ -438,11 +468,6 @@
         .direccion {
             padding-top: 1vmax;
            
-            i {
-                
-                
-                
-            }
 
             p {
                 font-size: 2vmax; 
@@ -452,9 +477,6 @@
         .telefono {
             padding-top: 1vmax;
 
-           i {
-            
-             } 
            
 
            p {
@@ -469,8 +491,6 @@
         .mail {
 
 
-            i {
-                } 
 
             a {
                 font-size: 1.8vmax;
@@ -581,7 +601,24 @@
 
             font-size: 1.8vmax;
         }
+
+        .foto-art {
+            width: 38vmax;
+        }
     }
+
+
+        .separador {
+
+            a {
+                .parrafo-publicidad-ia {
+                    font-size: 1.8vmax;
+                }
+            }
+        }
+
+
+    
    
     
     
@@ -594,16 +631,17 @@
     .row-ciber {
         
         background-position: center top 40%;
-        height: 80vmax;
+        height: 60vmax;
         display: flex;
         flex-flow: column wrap;
         align-items: end;
+        justify-content: center;
     }
 
     .col-ciber {
 
         width: 100%;
-        
+        background-color: rgba(0, 0, 0, 0.636);
         padding: 1.3vmax;
         margin: 1vmax 2vmax 1vmax 0;
 
@@ -621,6 +659,13 @@
             margin-bottom: 0;
             padding-bottom: 0.4vmax;
         }
+
+        .texto-colapsable {
+            display: none;
+
+        }
+
+       
     }    
 
 
@@ -753,11 +798,12 @@
 
     .row-ciber {
         
-        background-position: right 60% top 40%;
-        height: 105vmax;
+        background-position: right 45% top 40%;
+        height: 70vmax;
         display: flex;
         flex-flow: column wrap;
         align-items: center;
+        
         
         
         
@@ -767,7 +813,7 @@
 
        
         text-align: start;
-       
+        
         padding: 1.3vmax;
         margin: 2vmax !important;
 
